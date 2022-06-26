@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-04T01:50:29 IST" name="Default suite" finished-at="2022-01-04T01:50:29 IST" duration-ms="103">
+    <groups>
+    </groups>
+    <test started-at="2022-01-04T01:50:29 IST" name="Default test" finished-at="2022-01-04T01:50:29 IST" duration-ms="103">
+      <class name="TestCase.BrandPageScreenShot">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:TestCase.BrandPageScreenShot@6bedbc4d]" started-at="2022-01-04T01:50:29 IST" name="Setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1641241229224" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Setup.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Setup.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:441)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:712)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="FullSS()[pri:0, instance:TestCase.BrandPageScreenShot@6bedbc4d]" started-at="2022-01-04T01:50:29 IST" name="FullSS" finished-at="2022-01-04T01:50:29 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Setup.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Setup.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:441)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:712)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullSS -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.BrandPageScreenShot@6bedbc4d]" started-at="2022-01-04T01:50:29 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1641241229289" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.BrandPageScreenShot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

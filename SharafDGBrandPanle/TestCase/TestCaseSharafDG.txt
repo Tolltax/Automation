@@ -1,0 +1,20 @@
+TC001 - Login with Valide User Name and Valide Password
+        Once Logged sucessful brand can see dashboard
+      
+TC002 - Login with Valide User and Invalide passowrd 
+        Pop up show "Invalid Email/Password."    
+
+TC003-  with InValide User Name and Valide Password
+        Pop up will show "You Are Not A Registered User."
+      
+TC004-  with InValide User Name and Invalide Password
+        Pop up will show "You Are Not A Registered User."      
+      
+TC005-  without filling User Name and Password 
+        Pop wil show "Enter Email Id Enter Password"  
+
+TC006-  with Only User Name
+        pop show "Enter Password"
+      
+TC007-  with Only Password 
+        Pop up show "Enter Email Id"                
