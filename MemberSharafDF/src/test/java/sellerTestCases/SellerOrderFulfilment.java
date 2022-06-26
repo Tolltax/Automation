@@ -57,7 +57,7 @@ public class SellerOrderFulfilment extends BaseClass {
 
 
 		SellerManageOrderPO Sm =new SellerManageOrderPO(driver);
-		Sm.OrderConfirmSeller1();
+		//Sm.OrderConfirmSeller1();
 
 
 	}
@@ -67,7 +67,7 @@ public class SellerOrderFulfilment extends BaseClass {
 
 
 		SellerManageOrderPO Sm =new SellerManageOrderPO(driver);
-		Sm.OrderConfirmSeller1();
+		//Sm.OrderConfirmSeller1();
 
 
 	}
