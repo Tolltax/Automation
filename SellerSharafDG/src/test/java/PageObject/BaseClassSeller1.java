@@ -1,4 +1,5 @@
 package PageObject;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,7 +37,7 @@ public class BaseClassSeller1 {
 		public void Teardown1() {
 
 			//driver.quit();
-
+		
 		}
 
 }	

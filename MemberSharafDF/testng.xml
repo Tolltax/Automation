@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite" parallel="none">
+
+  <test name="Chrome">
+  <parameter name ="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.NavigatingStaffLogin"/>
+      <class name="pageobject.BaseClass"/>
     </classes>
   </test> <!-- Test -->
+  
+   <test name="Edge">
+  <parameter name ="browser" value="Edge"/>
+    <classes>
+      <class name="pageobject.BaseClass"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
 </suite> <!-- Suite -->

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Edge(failed)">
+    <parameter name="browser" value="Edge"/>
     <classes>
-      <class name="TestCases.NavigatingStaffLogin">
+      <class name="pageobject.BaseClass">
         <methods>
+          <include name="login"/>
           <include name="Setup"/>
           <include name="Teardown"/>
-          <include name="Lauch"/>
         </methods>
-      </class> <!-- TestCases.NavigatingStaffLogin -->
+      </class> <!-- pageobject.BaseClass -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Edge(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -17,6 +17,7 @@ public class ReadExcel {
 
 
 		String FileName = "C:\\Users\\cstechmk02\\Desktop\\SellerRegistration.xlsx";
+		
 		FileInputStream fs = new FileInputStream(FileName);
 		XSSFWorkbook wb= new XSSFWorkbook(fs);
 
